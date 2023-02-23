@@ -1,0 +1,55 @@
+title: Curriculum / 0xbaadf00d 
+description: Computer skills by Rodolfo Tavares
+author: Rodolfo Tavares
+github: https://github.com/0xrdf
+about: I am a pentester and mobile security researcher. Also, play CTF's 
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.png
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    # - icon: fa-facebook
+    #   link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/0xrdf0"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/rodolfo-augusto-543863a/"
+    # - icon: fa-stack-exchange
+    #   link: "#"
+    - icon: fa-github
+      link: "https://github.com/0xrdf"
+
+share:
+  twitter_username: 0xrdf0
+  # fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://0xrdf.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+
